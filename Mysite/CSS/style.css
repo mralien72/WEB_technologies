@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+    
+}
+header, footer{
+    text-align: center;
+    padding: 5px;
+    background-color:aquamarine;
+    margin: 7px auto;
+}
+header{
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    margin: 7px auto;
+}
+nav a {
+    padding: 5px;
+    transition: 0.5s;
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+    margin: 12px auto;
+}
+nav a:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    height: 150px;
+}
+il {
+    padding-right: 15px;
+}
+.text{
+    display: flex;
+   
+}
+p {
+    margin: 0;
+}
